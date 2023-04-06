@@ -10,9 +10,11 @@ All Cities Weather is a JavaScript mvp that allows users to search for weather i
 ## Objectives
 The main objectives of this project are:
 
-  To provide users with up-to-date weather information for any city in the world.
-  To display the weather information in a user-friendly way with a visually appealing weather icon.
-  To handle errors gracefully when a city is not found or when there is an issue with fetching weather data from the API.
+    DOM Manipulation
+    Fetch data from a public api
+    Implementing asynchronous functions
+    Event Listeners
+    Error handling
 
 ## Achieving these Objectives
 The project uses the following approach to achieve its objectives:
