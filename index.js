@@ -53,4 +53,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // Call the checkWeather function with the value entered in the search input
     checkWeather(searchBox.value);
   });
+
+  // Add keyup event listener to the search input
+  searchBox.addEventListener("keyup", (event) => {
+    // Check if the Enter key is pressed (key code 13)
+    if (event.keyCode === 13) {
+      // Call the checkWeather function with the value entered in the search input
+      checkWeather(searchBox.value);
+    }
+  });
+
 });
